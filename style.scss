@@ -1,0 +1,46 @@
+$cor-1: #4335A7;
+$cor-2: #9B7EBD;
+$cor-3: #D4BEE4;
+$cor-4: white;
+$tamanho-botao: 10px;
+body {
+   background-color: $cor-3;
+
+}
+
+button {
+    background-color: $cor-1;
+    color: $cor-4;
+    padding: $tamanho-botao;
+    margin: 2px;
+
+}
+
+input {
+background-color: $cor-1;
+padding:$tamanho-botao;
+margin: 4px;
+
+}
+
+h1, h2, h3 {
+    color: $cor-2;
+}
+
+p {
+    color:$cor-2;
+}
+
+form {
+
+    button {
+background-color: $cor-4;
+color:$cor-1;
+margin:4px;
+    }
+input {
+    background-color: $cor-2;
+    margin: 2px;
+}
+
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: #D4BEE4;
+}
+
+button {
+  background-color: #4335A7;
+  color: white;
+  padding: 10px;
+  margin: 2px;
+}
+
+input {
+  background-color: #4335A7;
+  padding: 10px;
+  margin: 4px;
+}
+
+h1, h2, h3 {
+  color: #9B7EBD;
+}
+
+p {
+  color: #9B7EBD;
+}
+
+form button {
+  background-color: white;
+  color: #4335A7;
+  margin: 4px;
+}
+form input {
+  background-color: #9B7EBD;
+  margin: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
