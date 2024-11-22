@@ -1,0 +1,25 @@
+main {
+    background-image: url("viagem.jpg");
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav li {
+    list-style: none;
+    padding: 5px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
