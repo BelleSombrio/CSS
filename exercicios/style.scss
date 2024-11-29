@@ -94,28 +94,29 @@ $tamanho-botao: 10px;
     }
 }
 
-.AtividadeMixin { 
+.AtividadeMixin {
     display: flex;
-    flex-direction:row;
-    @mixin card ( $corFundo, $corescrita,$border) 
-    { background-color: $corFundo; 
-     color: $corescrita;
-     padding: 5px;
-     width: 400px;
-     height: 500px;
-     border-radius:$border ;
-     box-shadow: 0 2px 10px rgba(0,0,0,1);
-     margin:10px; 
+    flex-direction: row;
+
+    @mixin card ($corFundo, $corescrita, $border) {
+        background-color: $corFundo;
+        color: $corescrita;
+        padding: 5px;
+        width: 400px;
+        height: 500px;
+        border-radius: $border ;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+        margin: 10px;
 
     }
 
-.cardprimario{
-@include card(green,white,4px)
+    .cardprimario {
+        @include card(green, white, 4px)
+    }
+
+    .cardsecundario {
+        @include card(orange, black, 6px);
+    }
 
 }
 
-.cardsecundario {
-    @include card(orange,black,6px);
-}
-    
-}
