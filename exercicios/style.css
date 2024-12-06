@@ -84,52 +84,58 @@
   margin: 10px;
 }
 
-.Atividade3 table {
+.loops .col-1 {
+  width: 8.3333333333%;
+}
+.loops .col-2 {
+  width: 16.6666666667%;
+}
+.loops .col-3 {
+  width: 25%;
+}
+.loops .col-4 {
+  width: 33.3333333333%;
+}
+.loops .col-5 {
+  width: 41.6666666667%;
+}
+.loops .col-6 {
+  width: 50%;
+}
+.loops .col-7 {
+  width: 58.3333333333%;
+}
+.loops .col-8 {
+  width: 66.6666666667%;
+}
+.loops .col-9 {
+  width: 75%;
+}
+.loops .col-10 {
+  width: 83.3333333333%;
+}
+.loops .col-11 {
+  width: 91.6666666667%;
+}
+.loops .col-12 {
   width: 100%;
-  text-align: center;
 }
-.Atividade3 th {
-  border-bottom: 2px solid rgb(0, 0, 88);
-  color: blue;
-}
-.Atividade3 td {
-  border-bottom: 1px solid rgb(0, 0, 88);
-  align-items: center;
-  color: blue;
-}
-.Atividade3 .assunto {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.Atividade3 .assunto-web {
-  background-color: hotpink;
-  min-width: 50%;
-  color: white;
-  text-transform: uppercase;
-}
-.Atividade3 .assunto-desktop {
+.loops div {
+  height: 50px;
   background-color: grey;
-  min-width: 50%;
-  color: white;
-  text-transform: uppercase;
+  border: 2px solid white;
 }
-.Atividade3 .assunto-Redes {
-  background-color: rgb(0, 0, 134);
-  min-width: 50%;
-  color: white;
-  text-transform: uppercase;
-}
-.Atividade3 .Joinha-Verde {
-  color: green;
-}
-.Atividade3 .Joinha-Vermelho {
-  color: red;
-}
-.Atividade3 .Estrela {
-  color: yellow;
-}
-.Atividade3 .icons {
+.loops .linha {
   display: flex;
   flex-direction: row;
+  background-color: white;
+}
+
+.animation button {
+  background-color: #4335A7;
+  transition: background-color 4s, transform 1s;
+}
+.animation button:hover {
+  background-color: red;
+  transform: scale(1.5);
 }

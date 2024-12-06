@@ -142,3 +142,25 @@ nav {
         }
     }
 }
+
+
+
+footer {
+
+    @include display-flex(row, center);
+    background-color: rgb(102, 149, 250);
+
+    $tamanhoTela:12;
+    @for $i from 1 through $tamanhoTela {
+        .col-#{$i} {
+            width: calc(100% / $tamanhoTela) * $i;
+            height: 150px;
+        align-items: center;
+        @include display-flex(column,center);
+        }
+    }
+ ul {
+   list-style:none;
+ }
+
+}

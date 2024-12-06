@@ -120,3 +120,41 @@ $tamanho-botao: 10px;
 
 }
 
+.loops {
+    $tamanhoTela: 12;
+    @for $i from 1 through $tamanhoTela {
+   .col-#{$i} {
+    width: calc(100% / $tamanhoTela) * $i;
+   }
+    }
+
+    div {
+        height: 50px;
+        background-color: grey;
+        border: 2px solid white;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+}
+
+.animation {
+
+    button {
+        background-color: #4335A7;
+        transition: background-color 4s, transform 1s;
+
+    }
+
+    button:hover {
+   background-color: red;
+   transform: scale(1.5);
+
+    }
+}
+
+
+
